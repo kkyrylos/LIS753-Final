@@ -131,6 +131,10 @@ nav ul li a {
   text-align: center;
 }
 
+nav ul li a:link {
+  color: black;
+}
+
 nav ul li a:hover {
   border-bottom: 3px solid #99C1B9;
   padding-bottom: 9px;
