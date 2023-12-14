@@ -9,8 +9,6 @@ body {
 
 header {
   background-image: url(images/bkg-img.jpg);
-  -webkit-text-stroke-width: 0.1px;
-  -webkit-text-stroke-color: #99C1B9;
 }
 
 .container {
@@ -31,6 +29,8 @@ h1#site-title {
   margin-top: .125em;
   margin-bottom: .125em;
   text-align: center;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: #99C1B9;
 }
 
 h1#article-title {
