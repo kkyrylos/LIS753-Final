@@ -1,0 +1,154 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #F1E3D3;
+  margin: 0;
+}
+
+header {
+  background-image: url(images/bkg-img.jpg);
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: #99C1B9;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.small-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1#site-title {
+  color: black;
+  font-family: Roboto;
+  font-size: clamp(2rem, 6vw, 4rem);
+  font-weight: 1000;
+  margin-top: .125em;
+  margin-bottom: .125em;
+  text-align: center;
+}
+
+h1#article-title {
+  font-size: clamp(2rem, 6vw, 4rem);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+article {
+  background-color: #F2D0A9;
+  border: 1px solid;
+  border-color: #99C1B9;
+}
+
+h2 {
+  margin-bottom: 0;
+  margin-top: 60px;
+}
+
+p {
+  line-height: 1.25;
+  margin-bottom: 1.25em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  border: 3px solid #6F2DBD;
+  padding: 10px;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+figure.main-image {
+  background: #99C1B9;
+  border-color: #D88C9A;
+  color: #ffffff;
+}
+
+figure.section-image {
+  background: #B298DC;
+  color: #ffffff;
+}
+
+figcaption {
+  color: black;
+  text-align: center;
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+@media all and (min-width: 768px) {
+  figure.section-image {
+    float: right;
+    margin-bottom: 32px;
+    max-width: 400px;
+  }
+}
+
+nav ul {
+  background-color: #D88C9A;
+  list-style: none;
+  padding: 0;
+}
+
+@media all and (min-width: 640px) {
+  nav ul{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+nav ul li {
+  padding: 5px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 12px;
+  display: block;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  border-bottom: 3px solid #99C1B9;
+  padding-bottom: 9px;
+}
+
+div.recipe{
+  border-bottom: 5px dashed;
+  border-color: #99C1B9;
+}
+
+footer#site-footer {
+  background-image: url(images/bkg-img.jpg);
+  padding: 32px 0;
+  text-align: center;
+  color: #black;
+}
+
+footer > p {
+  background-color: #99C1B9;
+  padding: 2px;
+}
